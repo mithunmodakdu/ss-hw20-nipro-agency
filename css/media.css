@@ -1,36 +1,225 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+/* header start */
+header {
+    padding: 10px 0;
+}
+.logo_link{
+    padding: 0;
+    margin: 0;
+    width: 170px;
+}
+
+/* header end */
+/* banner start */
+.banner_text {
+    position: absolute;
+    top: 105px;
+    left: 22px;
+    padding-right: 40px;
+}
+.banner_h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+.banner_p {
+    margin-bottom: 20px;
+}
+.banner_button {
+    padding: 5px 10px;
+}
+.prev_button {
+    position: absolute;
+    left: 30px;
     
+}
+.separator {
+    position: absolute;
+    left: 85px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 120px;
+    
+}
+
+/* banner end */
 
 
  }
 
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) { 
+@media (min-width: 576px) and (max-width: 767.98px) {
+/* header start */
+header {
+    padding: 10px 0;
+}
+/* header end */ 
+/* banner start */
+.banner_text {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    padding-right: 150px;
+}
+.banner_h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.banner_p {
+    margin-bottom: 30px;
+}
+
+.banner_button {
+    padding: 10px 20px;
+}
+.prev_button {
+    position: absolute;
+    left: 90px;
     
+}
+.separator {
+    position: absolute;
+    left: 165px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 180px;
+    
+}
+
+/* banner end */
 
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+/* header start */
+header {
+    padding: 15px 0;
+}
+/* header end */
+
+/* banner start */
+.banner_text {
+    position: absolute;
+    top: 100px;
+    left: 60px;
+    padding-right: 30px;
+}
+.banner_h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.banner_p {
+    margin-bottom: 35px;
+}
+.banner_button {
+    padding: 10px 20px;
+}
+.prev_button {
+    position: absolute;
+    left: 40px;
+    
+}
+.separator {
+    position: absolute;
+    left: 125px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 130px;
+    
+}
+    /* banner end */
   
 
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+/* header start */
+header {
+    padding: 20px 0;
+}
+/* header end */
 
+/* banner start */
+.banner_text {
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    padding-right: 20px;
+}
+.prev_button {
+    position: absolute;
+    left: 140px;
+    
+}
+.separator {
+    position: absolute;
+    left: 245px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 230px;
+   
+}
+/* banner end */
 
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) { 
 
+/* banner start */
+.banner_text {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    padding-right: 40px;
+}
+.prev_button {
+    position: absolute;
+    left: 150px;
+    
+}
+.separator {
+    position: absolute;
+    left: 275px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 250px;
+   
+}
 
+/* banner start */
  }
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-
+    /* banner start */
+    .prev_button {
+        position: absolute;
+        left: 180px;
+        
+    }
+    .separator {
+        position: absolute;
+        left: 325px;
+        
+    }
+    .next_button {
+        position: absolute;
+        left: 280px;
+       
+    }
+    /* banner end */
 
  }
