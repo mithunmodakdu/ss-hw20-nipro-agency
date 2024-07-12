@@ -72,6 +72,17 @@ header {
     padding: 5px 10px;
 }
 /* about end */
+/* recent work start */
+.work_menu {
+    margin-top: 30px;
+}
+.work_menu ul li {
+    margin: 10px !important;
+}
+.work_item {
+    margin: 15px 10px 0;
+}
+/* recent work end */
 
 
  }
@@ -143,6 +154,17 @@ header {
     padding: 5px 10px;
 }
 /* about end */
+/* recent work start */
+.work_menu {
+    margin-top: 50px;
+}
+.work_menu ul li {
+    margin-right: 15px !important;
+}
+.work_item {
+    margin: 25px 50px 0;
+}
+/* recent work end */
 
 
 
@@ -202,6 +224,14 @@ header {
     margin-top: 20px;
 }
 /* about end */
+/* recent work start */
+.work_menu {
+    margin-top: 50px;
+}
+.work_item {
+    margin-top: 35px;
+}
+/* recent work end */
   
 
 }
