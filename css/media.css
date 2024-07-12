@@ -56,7 +56,21 @@ header {
 .feature_item {
     margin: 50px 0 0;
 }
+.about_button {
+    padding: 5px 10px;
+}
 /* feature end */
+/* about start */
+.about_title_h1 {
+    text-align: center;
+}
+.about_text_p1{
+    margin-top: 20px;
+}
+.about_text_p2 {
+    margin: 20px 0;
+}
+/* about end */
 
 
  }
@@ -114,6 +128,17 @@ header {
     margin: 80px 80px 0;
 }
 /* feature end */
+/* about start */
+.about_title_h1 {
+    text-align: center;
+}
+.about_text_p1{
+    margin-top: 20px;
+}
+.about_text_p2 {
+    margin: 20px 0;
+}
+/* about end */
 
 
 
@@ -165,6 +190,14 @@ header {
     margin-top: 80px;
 }
 /* feature end */
+/* about start */
+.about_title_h1 {
+    text-align: center;
+}
+.about_text_p1{
+    margin-top: 20px;
+}
+/* about end */
   
 
 }
@@ -205,6 +238,14 @@ header {
     margin-top: 100px;
 }
 /* feature end */
+/* about start */
+.about_title_h1 {
+    margin-bottom: 20px;
+}
+.about_text_p2 {
+    margin: 20px 0;
+}
+/* about end */
 
 }
 
