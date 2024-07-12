@@ -83,6 +83,18 @@ header {
     margin: 15px 10px 0;
 }
 /* recent work end */
+/* choose start */
+.choose_item {
+    margin: 25px 0 0;
+}
+.choose_h2 {
+    font-size: 14px;
+}
+.choose_p {
+    margin: 10px 0 5px;
+}
+
+/* choose end */
 
 
  }
@@ -165,6 +177,18 @@ header {
     margin: 25px 50px 0;
 }
 /* recent work end */
+/* choose start */
+.choose_item {
+    margin: 30px 50px 0;
+}
+.choose_h2 {
+    font-size: 14px;
+}
+.choose_p {
+    margin: 20px 0 15px;
+}
+
+/* choose end */
 
 
 
@@ -232,6 +256,12 @@ header {
     margin-top: 35px;
 }
 /* recent work end */
+/* choose start */
+.choose_item {
+    margin-top: 60px;
+}
+
+/* choose end */
   
 
 }
