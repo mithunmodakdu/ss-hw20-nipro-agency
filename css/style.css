@@ -193,11 +193,15 @@ header{
 /* feature end */
 /* about start */
 .about_title_h1{
-    margin-top: 0;
+    margin: 0 0 40px;
 }
 
+.about_text_p1{
+    line-height: 34px;
+}
 .about_text_p2{
     margin: 45px 0;
+    line-height: 34px;
 }
 .about_button{
     border: 2px solid #333333;
@@ -448,3 +452,26 @@ header{
     
 }
 /* price end */
+/* buy start */
+.buy{
+    background-color: #f8f8f8;
+    padding: 24px 0;
+    margin-bottom: 100px;
+}
+.buy_title{
+  
+}
+.buy_title_h1{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+}
+.buy_button_box{
+    text-align: right;
+}
+.buy_button{
+    border: 2px solid #333333;
+}
+/* buy end */
