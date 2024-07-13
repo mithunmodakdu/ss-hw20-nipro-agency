@@ -475,3 +475,97 @@ header{
     border: 2px solid #333333;
 }
 /* buy end */
+/* profile start */
+
+.profile_item{
+    border: 1px solid #8e8e8e;
+    padding: 40px 30px;
+}
+
+.profile_title_h1{
+    margin: 0 0 20px;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.profile_title_h2{
+    font-size: 18px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+.profile_title_h3{
+    margin: 15px 0 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.profile_text_p1{
+    line-height: 22px;
+}
+.profile_text_p2{
+    margin: 35px 0 0;
+    line-height: 22px;
+}
+.profile_button_box{
+    border: 1px solid #8e8e8e;
+    background-color: #f8f8f8;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile_prev_button{
+    margin-bottom: 70px;
+    writing-mode: vertical-rl;
+    border: none;
+    color: #8e8e8e;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .33s linear;
+    
+}
+.profile_prev_button:hover{
+    color: #333333;
+    
+}
+.profile_separator1, .profile_separator3{
+    
+    writing-mode: vertical-rl;
+    color: #8e8e8e;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.profile_separator2{
+    writing-mode: vertical-rl;
+    color: #333333;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 5px 0;
+}
+.profile_next_button{    
+    margin-top: 70px;
+    writing-mode: vertical-rl;
+    border: none;
+    color: #8e8e8e;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition: .33 linear;
+    
+}
+.profile_next_button:hover{
+   color: #333333;
+    
+}
+
+/* profile end */
