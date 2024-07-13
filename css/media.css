@@ -95,6 +95,17 @@ header {
 }
 
 /* choose end */
+/* person start */
+.person_item {
+    margin: 10px 15px;
+}
+.person_social {
+    top: 15%;
+}
+.person_text_h2 {
+    font-size: 16px;
+}
+/* person end */
 
 
  }
@@ -190,6 +201,18 @@ header {
 
 /* choose end */
 
+/* person start */
+.person_item {
+    margin: 30px 60px;
+}
+.person_social {
+    top: 25%;
+}
+.person_text_h2 {
+    font-size: 16px;
+}
+/* person end */
+
 
 
  }
@@ -262,6 +285,14 @@ header {
 }
 
 /* choose end */
+/* person start */
+.person_social {
+    top: 20%;
+}
+.person_text_h2 {
+    font-size: 16px;
+}
+/* person end */
   
 
 }
@@ -310,6 +341,14 @@ header {
     margin: 20px 0;
 }
 /* about end */
+/* person start */
+.person_social {
+    top: 10%;
+}
+.person_text_h2 {
+    font-size: 14px;
+}
+/* person end */
 
 }
 

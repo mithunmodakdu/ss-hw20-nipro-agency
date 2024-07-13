@@ -311,3 +311,75 @@ header{
 }
 
 /* choose end */
+/* person start */
+.person{
+    background-image: url("../images/person_bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.person_item{
+    margin-top: 55px;
+    position: relative;
+}
+
+.person_social{
+    position: absolute;
+    top: 15%;
+    left: 0;
+    background-color: #ffffff;
+    padding: 0 0 0 10px;
+    display: none;
+    
+}
+.person_item:hover .person_social{
+    display: block;
+}
+.person_social ul li{
+    margin-bottom: 15px;
+}
+
+.person_social ul li:hover{
+    border-right: 2px solid #333333;
+}
+.person_social ul li:first-child{
+    margin-top: 5px;
+   
+}
+.person_social ul li:last-child{
+    margin-bottom: 5px;
+   
+}
+.person_social ul li a{
+   text-decoration: none;
+}
+.person_social ul li a i{
+    margin-right: 10px;
+    color: #8e8e8e;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+
+.person_text{
+    background-color: #ffffff;
+    width: 100%;
+    padding: 15px 25px;
+   
+}
+ 
+.person_item:hover .person_social{
+    display: block;
+}
+
+.person_text_h2{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+/* person end */
