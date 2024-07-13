@@ -106,6 +106,14 @@ header {
     font-size: 16px;
 }
 /* person end */
+/* price start */
+.price_item {
+    margin: 50px 10px 0;
+}
+.price_button {
+    padding: 12px 50px;
+}
+/* price end */
 
 
  }
@@ -212,6 +220,14 @@ header {
     font-size: 16px;
 }
 /* person end */
+/* price start */
+.price_item {
+    margin: 50px 80px 0;
+}
+.price_button {
+    padding: 20px 90px;
+}
+/* price end */
 
 
 
@@ -293,6 +309,16 @@ header {
     font-size: 16px;
 }
 /* person end */
+/* price start */
+.price_item {
+    margin: 60px 10px 0;
+}
+.price_button {
+    padding: 15px 75px;
+}
+/* price end */
+
+
   
 
 }
@@ -349,6 +375,14 @@ header {
     font-size: 14px;
 }
 /* person end */
+/* price start */
+.price_item {
+    padding: 40px 14px;
+}
+.price_button {
+    padding: 15px 40px;
+}
+/* price end */
 
 }
 
@@ -383,22 +417,27 @@ header {
 
 /* Extra extra large devices (large desktops, 1400px and up) */
 @media (min-width: 1400px) { 
-    /* banner start */
-    .prev_button {
-        position: absolute;
-        left: 180px;
-        
-    }
-    .separator {
-        position: absolute;
-        left: 325px;
-        
-    }
-    .next_button {
-        position: absolute;
-        left: 280px;
-       
-    }
-    /* banner end */
+/* banner start */
+.prev_button {
+    position: absolute;
+    left: 180px;
+    
+}
+.separator {
+    position: absolute;
+    left: 325px;
+    
+}
+.next_button {
+    position: absolute;
+    left: 280px;
+    
+}
+/* banner end */
+/* price start */
+.price_button {
+    padding: 20px 78px;
+}
+/* price end */
 
  }

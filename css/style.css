@@ -383,3 +383,68 @@ header{
 }
 
 /* person end */
+/* price start */
+
+.price_item{
+    margin-top: 100px;
+    border: 1px solid #8e8e8e;
+    position: relative;
+    padding: 40px 20px;
+       
+    
+}
+.price_item:hover{
+    border: 1px solid #333333;
+    
+    
+    
+}
+.price_category{
+    position:absolute;
+    background-color: #ffffff;
+    top: -3%;
+    left: 20%;
+    padding: 5px;
+    
+}
+.price_category h3{
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+}
+.price_value{
+    margin-bottom: 40px;
+    text-align: left;
+}
+.price_h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #333333;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline;
+}
+.per_month{
+    display: inline;
+}
+.price_service ul li{
+    text-align: left;
+    margin-bottom: 25px;
+    word-spacing: 3px;
+}
+.price_button{
+    padding: 20px 50px;
+    color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+}
+.price_item:hover .price_button{
+    color: #333333;
+    background-color: #f8f8f8;
+    border: 1px solid #333333;
+    
+    
+}
+/* price end */
