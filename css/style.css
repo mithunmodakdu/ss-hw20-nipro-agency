@@ -628,3 +628,43 @@ header{
     
 }
 /* contact end */
+/* footer start */
+footer{
+    background-image: url("../images/footer_bg_img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 0 40px;
+}
+.footer_p{
+    color: #ffffff;
+    margin: 40px 0 40px !important;
+    padding: 0 45px;
+}
+.footer_social ul li{
+    
+    
+    
+}
+.footer_social ul li a{
+    text-decoration: none;
+}
+.footer_social ul li a i{
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+}
+.footer_social ul li a i:hover{
+    color: #333333;
+    background-color: #ffffff;
+}
+.footer_divider{
+    border: 1px solid #ffffff;
+    margin: 100px 0 40px;
+}
+.copyright{
+    color: #ffffff;
+}
+.footer_menu ul li a{
+    color: #ffffff;
+}
+/* footer end */
