@@ -165,6 +165,22 @@ header {
     padding-left: 40px;
 }
 /* profile end */
+/* contact start */
+.contact_box {
+    padding: 40px 10px;
+}
+.contact_title {
+    top: -5%;
+    left: 24%;
+}
+.contact_title h1 {
+    font-size: 20px;
+}
+.contact_button {
+    margin-top: 20px;
+    padding: 10px 50px;
+}
+/* contact end */
 
 
  }
@@ -322,6 +338,21 @@ header {
     padding-left: 100px;
 }
 /* profile end */
+/* contact start */
+.contact_box {
+    padding: 60px 100px 40px 100px;
+}
+.contact_title {
+    top: -6%;
+    left: 30%;
+}
+.contact_title h1 {
+    font-size: 25px;
+}
+.contact_button {
+    padding: 10px 50px;
+}
+/* contact end */
 
 
 
@@ -451,6 +482,12 @@ header {
     padding-left: 100px;
 }
 /* profile end */
+/* contact start */
+.contact_title {
+    top: -6%;
+    left: 35%;
+}
+/* contact end */
 
 
   
@@ -539,6 +576,12 @@ header {
     height: 314px;
 }
 /* profile end */
+/* contact start */
+.contact_title {
+    top: -6%;
+    left: 35%;
+}
+/* contact end */
 
 
 }
@@ -586,6 +629,11 @@ header {
     margin: 15px 0 0;
 }
 /* profile end */
+/* contact start */
+.contact_title {
+    top: -6%;
+}
+/* contact end */
 
 }
 
@@ -626,5 +674,11 @@ header {
     height: 390px;
 }
 /* profile end */
+/* contact start */
+.contact_title {
+    top: -6%;
+}
+/* contact end */
+
 
  }
