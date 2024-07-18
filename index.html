@@ -15,8 +15,10 @@
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/bootstrap-icons.css">
 
-    <!-- ::::::: font awesome icon kit ::::::::: -->
+    <!-- ::::::: icon kit ::::::::: -->
     <script src="https://kit.fontawesome.com/0675d7cab4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css" integrity="sha256-AJfZWudfDWpFpIZ3USExGYDGwsYz47IgfEQCiGTm4wQ=" crossorigin="anonymous">
+    
 
   </head>
   <body>
@@ -55,11 +57,24 @@
                   <a class="nav-link" href="#">Conatct</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  <a class="nav-link" data-bs-toggle="collapse" href="#collapse_search" role="button" ><i class="fa-solid fa-magnifying-glass"></i></a>
                 </li>
                 
                 
               </ul>
+
+              <div class="collapse search_item " id="collapse_search">
+                <div class="card card-body">
+                  <div class="row g-3">
+                    <div class="col-12">
+                      <input type="text" class="form-control" placeholder="write here to search..." aria-label="First name">
+                    </div>
+                    <div class="col-3">
+                      <button class="c_button search_btn ">Search</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               
             </div>
           </div>
@@ -110,15 +125,21 @@
           </div>
         </div>
 
-        <!--prev next button -->
-      
-        <button class="carousel-control-prev prev_button" type="button" data-bs-target="#banner_carousal" data-bs-slide="prev">
-          <span >Prev</span>
-        </button>
-        <span class="separator">| <span class="b_separator">|</span> |</span>
-        <button class="carousel-control-next next_button" type="button" data-bs-target="#banner_carousal" data-bs-slide="next">
-          <span >Next</span>
-        </button>
+       <!--prev next button -->
+       <div class="col-lg-1">
+        <div class="banner_button_box">
+          <button class=" banner_prev_button" type="button" data-bs-target="#banner_carousal" data-bs-slide="prev">
+            Prev
+          </button>
+          <span class="banner_separator1">|</span>
+          <span class="banner_separator2">|</span>
+          <span class="banner_separator3">|</span>
+          
+          <button class=" banner_next_button" type="button" data-bs-target="#banner_carousal" data-bs-slide="next">
+            Next
+          </button>
+        </div>
+      </div>
         
         
 
@@ -154,8 +175,9 @@
             <!-- item1 -->
             <div class="col-lg-3 col-md-6">
               <div class="feature_item text-center">
-                <div class="feature_img">
-                  <img src="images/diamond.png" alt="Nipro">
+                <div class="feature_icon">
+                  <i class="pe-7s-diamond"></i>
+                  
                 </div>
                 <h2 class="feature_h2">Branding</h2>
                 <hr class="hr_divider">
@@ -167,8 +189,9 @@
             <!-- item2 -->
             <div class="col-lg-3 col-md-6">
               <div class="feature_item text-center">
-                <div class="feature_img">
-                  <img src="images/rocket.png" alt="Nipro">
+                <div class="feature_icon">
+                  <i class="pe-7s-rocket"></i>
+                  
                 </div>
                 <h2 class="feature_h2">UI & UX</h2>
                 <hr class="hr_divider">
@@ -180,8 +203,9 @@
             <!-- item3 -->
             <div class="col-lg-3 col-md-6">
               <div class="feature_item text-center">
-                <div class="feature_img">
-                  <img src="images/tag.png" alt="Nipro">
+                <div class="feature_icon">
+                  <i class="pe-7s-ribbon"></i>
+                  
                 </div>
                 <h2 class="feature_h2">APP Design</h2>
                 <hr class="hr_divider">
@@ -193,8 +217,9 @@
             <!-- item4 -->
             <div class="col-lg-3 col-md-6">
               <div class="feature_item text-center">
-                <div class="feature_img">
-                  <img src="images/cross.png" alt="Nipro">
+                <div class="feature_icon">
+                  <i class="pe-7s-shield"></i>
+                  
                 </div>
                 <h2 class="feature_h2">Web Design</h2>
                 <hr class="hr_divider">
@@ -418,17 +443,14 @@
             <!-- item1 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img1.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Creative Design</h2>
-                  </li>
-                </ul>
-               
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-diamond"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
+                               
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
               </div>
@@ -437,16 +459,13 @@
             <!-- item2 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img2.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Minimal Design</h2>
-                  </li>
-                </ul>
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-vector"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
                
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
@@ -456,16 +475,13 @@
             <!-- item3 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img3.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Retina  Display</h2>
-                  </li>
-                </ul>
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-photo"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
                
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
@@ -475,16 +491,13 @@
             <!-- item4 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img4.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Full Responsive</h2>
-                  </li>
-                </ul>
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-wristwatch"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
                
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
@@ -494,16 +507,13 @@
             <!-- item5 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img5.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Updates & Support</h2>
-                  </li>
-                </ul>
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-config"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
                
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
@@ -513,16 +523,13 @@
             <!-- item6 -->
             <div class="col-lg-4 col-md-6">
               <div class="choose_item">
-                <ul class="list-inline">
-                  <li class="list-inline-item">
-                    <div class="choose_img">
-                      <img src="images/cho_img6.png" alt="Nipro">
-                    </div>
-                  </li>
-                  <li class="list-inline-item">
-                    <h2 class="choose_h2">Easy to Customize</h2>
-                  </li>
-                </ul>
+                <div class="choose_title">
+                  <div class="choose_icon ">
+                    <i class="pe-7s-edit"></i>
+                  </div>
+                  <h2 class="choose_h2">Creative Design</h2>
+
+                </div>
                
                 <p class="choose_p">Lorem Ipsum is simply dummy lol Is the printing typesetting industry. Lorem some </p>
                 
@@ -919,6 +926,7 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-5 col-md-8">
+            
             <!-- 1st row -->
             <div class="row justify-content-center">
               <div class="col-lg-5">
