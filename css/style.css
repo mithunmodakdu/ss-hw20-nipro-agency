@@ -242,18 +242,19 @@ z-index: 1;
 .work_menu ul li:last-child{
     margin-right: 0 !important;
 }
-.work_menu ul li a{
+.work_menu ul li button{
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: #8e8e8e;
+    border: none;
+    background-color: transparent;
     text-transform: uppercase;
     transition: .33s;
 }
-.work_menu ul li a:hover{
+.work_menu ul li button.active{
     padding: 10px 5px;
-    border: 2px solid #8e8e8e;
-    font-weight: 700;
+    border: 1px solid #333333;
     color: #333333;
 }
 .work_item{
